@@ -5,3 +5,14 @@
 2test,Test,t_test,test manage,test table
 3name,name,String,varchar2,name,20
 3createBy,create_by,int,int,create person,1
+2_,TestUserInfo,t_test_user,user manage,user table
+3id,id,int,int,seq,11
+3userName,user_name,String,varchar2,user name,15
+3password,password,String,varchar2,pass,32
+3salt,salt,String,varchar2,salt,32
+3email,email,String,varchar2,mailbox,50
+3roles,roles,String,varchar2,role,50
+3active,active,int,tinyint,statue,1
+3remark,remark,String,Varchar2,remark info,100
+3createBy,create_by,int,int,create user,11
+3createTime,create_time,Date,datetime,创建时间,0

@@ -55,7 +55,7 @@ public class ProjectBean {
 	public String getModuleName(String suffix) {
 		String temp = StringUtils.isBlank(projectName) ? "" : projectName;
 		String[] temps = StringUtils.split(temp, "_");
-		return (temps.length < 2 ? projectName : temps[0] + "-") + StringUtils.substringBefore(suffix, "/");
+		return (temps.length < 2 ? projectName : temps[0]) + "-" + StringUtils.substringBefore(suffix, "/");
 	}
 	
 	public List<String> getModules() {
