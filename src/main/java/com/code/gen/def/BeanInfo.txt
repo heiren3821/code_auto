@@ -1,0 +1,7 @@
+#1.Project Definition    projectName,packagePrefix,projectDesc
+#2.Class Global Definition  packageSuffix,BeanName,tableName,menuName,tableComment
+#3.Field Definition fieldName,columnName,dataType,columnType,comment,maxLength
+1test,com.temp,TEST
+2test,Test,t_test,test manage,test table
+3name,name,String,varchar2,name,20
+3createBy,create_by,int,int,create person,1
