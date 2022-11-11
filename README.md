@@ -4,9 +4,11 @@ This is a project based on freemarker template that can automatically generate a
 How To Do
 1. Edit template location - src/main/java/com/code/gen/def
 Basic fields have basic rules. The details are as follows:
-#1.Project Definition    projectName,packagePrefix,projectDesc
-#2.Class Global Definition  packageSuffix,BeanName,tableName,menuName,tableComment
-#3.Field Definition fieldName,columnName,dataType,columnType,comment,maxLength
+
+"1.Project Definition    projectName,packagePrefix,projectDesc
+2.Class Global Definition  packageSuffix,BeanName,tableName,menuName,tableComment
+3.Field Definition fieldName,columnName,dataType,columnType,comment,maxLength"
+
 The default sample template can be viewed in BeanInfo.txt under the template directory
 2. After editing the template information, run the MainProcessor program
 public static void main(String[] args) {
