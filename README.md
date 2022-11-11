@@ -13,11 +13,13 @@ The default sample template can be viewed in BeanInfo.txt under the template dir
 2. After editing the template information, run the MainProcessor program
 
 '''
+
  public static void main(String[] args) {
        //TODO pls note change template name if use new one.
 	Config.setDefFileName("BeanInfo.txt");
  ProjectProcessor.handle();
  }
+ 
 '''
 
 3. After running, the sample code is under the output folder
